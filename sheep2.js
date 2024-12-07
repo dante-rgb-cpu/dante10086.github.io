@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     // 直接设置图片路径
-    const imageUrl = `顺手牵羊.png/${imageFileName}`;
+    const imageUrl = `https://github.com/dante-rgb-cpu/dante10086.github.io/blob/5a8bb0b1db6d0080c8a64d592f491965cfb8f9cd/%E9%A1%BA%E6%89%8B%E7%89%B5%E7%BE%8A.png/${imageFileName}`;
     document.getElementById('idiomImage').src = imageUrl;
 });
