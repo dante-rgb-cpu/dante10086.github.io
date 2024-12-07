@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     // 直接设置图片路径
-    const imageUrl = `main/${imageFileName}`;
+    const imageUrl = `顺手牵羊.png/${imageFileName}`;
     document.getElementById('idiomImage').src = imageUrl;
 });
