@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
 
     // 直接设置图片路径
-    const imageUrl = `assets/images/${imageFileName}`;
+    const imageUrl = `main/${imageFileName}`;
     document.getElementById('顺手牵羊').src = imageUrl;
 });
