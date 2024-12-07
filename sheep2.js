@@ -1,8 +1,8 @@
-'document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const chineseIdiom = '顺手牵羊'; // 这里替换成具体的成语
     const pinyin = 'shunshouqianyang'; // 这里替换成语的拼音
-    const explanation = '顺手牵羊是一个汉语成语，最早出自《三十六计》。该成语的意思是顺便拿走别人的东西'; // 这里替换成语的解释
-
+    const explanation = '顺手牵羊是一个汉语成语，最早出自《三十六计》。该成语的意思是顺便拿走别人的东西。'; // 这里替换成语的解释
+    const imageFileName = 'sheep.png'; // 图片文件名
 
     document.getElementById('chineseIdiom').textContent = chineseIdiom;
     document.getElementById('chineseIdiom').setAttribute('data-pinyin', pinyin);
@@ -14,6 +14,6 @@
     `;
 
     // 直接设置图片路径
-    const imageUrl ='sheep.png';
+    const imageUrl = `${imageFileName}`;
     document.getElementById('idiomImage').src = imageUrl;
 });
