@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const imageUrl = 'sheep.png';
     const imageElement = document.getElementById('idiomImage');
     imageElement.src = imageUrl;
-    imageElement.style.display = 'block';
 
     // 获取视频元素
     const videoPlayer = document.getElementById('videoPlayer');
