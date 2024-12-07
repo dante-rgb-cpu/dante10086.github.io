@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#chineseIdiom {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#idiomDetails {
+    list-style: none;
+    padding: 0;
+}
+
+#idiomDetails li {
+    margin-bottom: 0.5em;
+}
+
+#idiomImage {
+    max-width: 100%;
+    height: auto;
+}
